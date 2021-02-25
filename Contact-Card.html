@@ -8,23 +8,24 @@
     <title>Contact Card</title>
     <!-- <script src="js/date.js" async></script> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="/styles/contact-card.css" rel="stylesheet">
     <!-- add bootstrap styles and JS here -->
 </head>
 
 <body>
     <!-- follow bootstrap layout classes for creating a grid: https://getbootstrap.com/docs/5.0/layout/grid/#example -->
-    <div class="container">
+    <div class="container-fluid fill">
         <!-- Stretch Goal: create the top notification bar (time already created, just uncomment next line) -->
         <!-- <div><div><span id='time'></span></div></div> -->
         <div class="row">
-            <div class="col-4 col-sm-12 offset-4">
+            <div class="col-6 offset-3">
                 <!-- hint: see https://getbootstrap.com/docs/5.0/utilities/borders/#border-radius -->
-                <img src="/Images/Profile.jpg" class="rounded-circle" alt="profile">
+                <img src="/Images/Profile.jpg" class="img-fluid rounded-circle mx-auto d-block" alt="profile">
            
             </div>
         </div>
         <div class="row">
-            <div class="col-4 col-sm-12 offset-4">
+            <div class="col-6 offset-3">
                 <div class="card">
                     <div class="card-body"></div>
                     <div class="mx-auto">
@@ -61,7 +62,7 @@
             </div>
         </div>
 
-        <!-- test -->
+      
         <!-- <div> Stretch goal: Create bottom button bar</div> -->
     </div>
 </body>
