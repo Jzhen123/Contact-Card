@@ -2,3 +2,8 @@
     min-height: 100vh;
     
 }
+
+.bgimg {
+    background-image: url("../Images/background.jpg");
+    
+}
