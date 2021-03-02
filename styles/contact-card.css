@@ -8,12 +8,17 @@
     
 }
 
-.profilepic {
+.profilePic {
     position: relative;
     top: 60px;
 }
-
-.content{
+.cardPosition {
+    margin: auto;
+    width: 50%;
+}
+.cardSize {
     position: relative;
-    top: 200px;
+    top: 100px;
+    width: 275px;
+    height: 275px;
 }
